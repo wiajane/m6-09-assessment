@@ -1,0 +1,13 @@
+{
+  "first_name": "Jale",
+  "last_name": "Suleymanova",
+  "team": "QA",
+  "model": {
+    "framework": "yolo26",
+    "variant": "yolo26s",
+    "imgsz": 640,
+    "epochs_total": 35,
+    "tricks": ["mosaic", "hsv_augmentation", "rotation", "weight_decay"]
+  },
+  "notes": "yolo26s fine-tune, 35 epochs, mosaic+HSV+rotation+weight_decay; test mAP@0.5 ~0.91; exported end-to-end ONNX"
+}
